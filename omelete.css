@@ -1,0 +1,63 @@
+#tudo {
+    background-color: bisque;
+    display: flex;
+    min-width: 350px;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: center;
+}
+.topo{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1440px;
+    width: 85%;
+    margin: 20px;
+    border-radius: 10px;
+}
+.principal {
+    width: 90%;
+    margin: auto;
+}
+.tempo {
+    width: 90%;
+    margin: 30px;
+    min-width: 300px;
+    max-width: 1440px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    line-height: 30px;
+}
+.ingredientes {
+    width: 90%;
+    margin: auto;
+    line-height: 30px;
+}
+.intrucao {
+    width: 90%;
+    margin: auto;
+    line-height: 30px;
+}
+.nutricao {
+    width: 90%;
+    margin: auto;
+    line-height: 30px;
+}
+.imagem {
+    width: 90%;
+    margin: 30px;
+    justify-content: center;
+}
+img {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+h1 {
+    color: hsl(14, 45%, 36%);
+}
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+p {
+    color: black;
+}
