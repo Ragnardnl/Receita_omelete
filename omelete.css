@@ -1,15 +1,16 @@
 #tudo {
     background-color: bisque;
     display: flex;
-    min-width: 350px;
-    max-width: 1440px;
+    width: 100%;
+    min-width: 320px;
+    max-width: 1920px;
     margin: auto;
     justify-content: center;
 }
 .topo{
     background-color: white;
-    min-width: 300px;
-    max-width: 1440px;
+    min-width: 320px;
+    max-width: 1920px;
     width: 85%;
     margin: 20px;
     border-radius: 10px;
@@ -21,8 +22,8 @@
 .tempo {
     width: 90%;
     margin: 30px;
-    min-width: 300px;
-    max-width: 1440px;
+    min-width: 320px;
+    max-width: 1920px;
     background-color: hsl(330, 100%, 98%);
     border-radius: 10px;
     line-height: 30px;
