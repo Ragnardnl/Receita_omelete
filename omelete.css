@@ -58,6 +58,11 @@ h1 {
 h3 {
     color: hsl(332, 51%, 32%);
 }
+.rodape {
+    clear: both;
+    background-color: bisque;
+    text-align: right;
+    line-height: 20px;
 p {
     color: black;
 }
