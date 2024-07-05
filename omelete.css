@@ -1,51 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    font-family: "Young Serif", serif;
+    justify-content: center;
+}
+body {
+    background-color: bisque;
+}
 #tudo {
     background-color: bisque;
     display: flex;
     width: 100%;
-    min-width: 320px;
+    min-width: 120px;
     max-width: 1920px;
     margin: auto;
-    justify-content: center;
 }
 .topo{
     background-color: white;
-    min-width: 320px;
+    min-width: 120px;
     max-width: 1920px;
-    width: 85%;
-    margin: 20px;
-    border-radius: 10px;
+    width: 50%;
+    box-shadow: 5px 5px 20px hsl(14, 45%, 36%);
+    margin: 100px;
+    border-radius: 20px;
 }
 .principal {
     width: 90%;
     margin: auto;
 }
 .tempo {
-    width: 90%;
-    margin: 30px;
-    min-width: 320px;
+    width: auto;
+    margin: 6%;
+    min-width: 120px;
     max-width: 1920px;
+    padding: 5px;
     background-color: hsl(330, 100%, 98%);
     border-radius: 10px;
-    line-height: 30px;
+    line-height: 40px;
+    ::marker {color: hsl(332, 51%, 32%)}
 }
 .ingredientes {
     width: 90%;
     margin: auto;
     line-height: 30px;
+    ::marker {color: hsl(14, 45%, 36%);}
 }
 .intrucao {
-    width: 90%;
+    width: 89%;
+    min-width: 120px;
+    max-width: 1920px;
     margin: auto;
     line-height: 30px;
+    ::marker {color: hsl(14, 45%, 36%);}
+    ::marker {font-weight: bold;}
 }
 .nutricao {
     width: 90%;
+    min-width: 120px;
+    max-width: 1920px;
     margin: auto;
-    line-height: 30px;
+    line-height: 20px;
+    text-align: justify;
+    span {
+        color: hsl(14, 45%, 36%);
+        font-weight: bold;
+    }
+    ul{
+        word-spacing: 200px;
+    }
 }
 .imagem {
-    width: 90%;
-    margin: 30px;
+    margin: 20px;
     justify-content: center;
 }
 img {
@@ -59,11 +84,12 @@ h1 {
 h3 {
     color: hsl(332, 51%, 32%);
 }
+p {
+    color: black;
+}
 .rodape {
     clear: both;
     background-color: bisque;
     text-align: right;
     line-height: 20px;
-p {
-    color: black;
 }
