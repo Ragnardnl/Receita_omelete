@@ -16,7 +16,7 @@ body {
 }
 .topo{
     background-color: white;
-    width: 60%;
+    width: 70%;
     box-shadow: 5px 5px 20px hsl(14, 45%, 36%);
     border-radius: 20px;
 }
@@ -25,12 +25,13 @@ body {
     margin: auto;
 }
 .tempo {
-    width: auto;
-    margin: 6%;
-    padding: 5px;
+    width: 85%;
+    margin: 5%;
+    padding: 1px;
     background-color: hsl(330, 100%, 98%);
     border-radius: 10px;
-    line-height: 40px;
+    line-height: 35px;
+    text-align: justify;
     ::marker {color: hsl(332, 51%, 32%)}
 }
 .ingredientes {
@@ -70,6 +71,7 @@ img {
 }
 h1 {
     color: hsl(14, 45%, 36%);
+    font-size: 25px;
 }
 h3 {
     color: hsl(332, 51%, 32%);
