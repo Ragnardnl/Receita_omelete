@@ -3,20 +3,19 @@
 * {
     font-family: "Young Serif", serif;
     justify-content: center;
+    margin: 0;
 }
 body {
     background-color: bisque;
 }
 #tudo {
     background-color: bisque;
-    display: flex;
-    min-width: 320px;
-    max-width: 1900px;
-    margin: auto;
 }
 .topo{
     background-color: white;
-    width: 70%;
+    max-width: 700px;
+    min-width: 280px;
+    margin: auto;
     box-shadow: 5px 5px 20px hsl(14, 45%, 36%);
     border-radius: 20px;
 }
@@ -52,6 +51,7 @@ body {
     margin: auto;
     line-height: 20px;
     text-align: justify;
+    padding: 10px;
     span {
         color: hsl(14, 45%, 36%);
         font-weight: bold;
@@ -63,6 +63,7 @@ body {
 .imagem {
     margin: 20px;
     justify-content: center;
+    padding-top: 20px;
 }
 img {
     width: 100%;
@@ -80,8 +81,8 @@ p {
     color: black;
 }
 .rodape {
+    margin: auto;
     clear: both;
-    background-color: bisque;
-    text-align: right;
-    line-height: 20px;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
 }
